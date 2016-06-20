@@ -1,0 +1,16 @@
+.tooltip {
+    position: absolute;				
+    width: auto;
+    height: auto;
+    font: 14px sans-serif;
+    font-weight: bold;
+    background: white;		
+    border-radius: 5px;			
+    pointer-events: none;
+    padding: 3px 3px 3px 3px;
+}
+
+.state-boundary {
+  fill: none;
+  stroke: black;
+}

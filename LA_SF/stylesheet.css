@@ -1,0 +1,48 @@
+
+.boundary {
+  fill: none;
+  stroke: black;
+  stroke-width: .05%;
+}
+
+.Button {
+  margin-left: 10px;
+}
+
+.tooltip {
+
+    width: auto;
+    height: auto;
+    font: 14px sans-serif;
+    font-weight: bold;
+    background: white;
+    border-radius: 5px;
+    pointer-events: none;
+    padding: 3px 3px 3px 3px;
+}
+
+#Population {
+  background-color: #33AD33;
+  color: white;
+}
+
+#Housing {
+  background-color: #CC0000;
+  color: white;
+}
+
+#Income {
+  background-color: #335CAD;
+  color: white;
+}
+
+
+#Poverty {
+  background-color: #FF944D;
+  color: white;
+}
+
+#Employment {
+  background-color: #B84DDB;
+  color: white;
+}

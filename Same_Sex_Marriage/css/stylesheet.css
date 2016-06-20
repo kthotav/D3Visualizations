@@ -1,0 +1,27 @@
+svg {
+  position: relative;
+  display: block;
+  margin: auto;
+}
+
+.boundary {
+  fill: none;
+  stroke: #ffffff;
+}
+
+.path {
+  display: none;
+}
+
+.tooltip {
+    position: absolute;
+    width: auto;
+    height: auto;
+    font: 14px sans-serif;
+    color: black;
+    font-weight: bold;
+    background: lightsteelblue;
+    border-radius: 5px;
+    pointer-events: none;
+    padding: 3px 3px 3px 3px;
+}
