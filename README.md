@@ -4,6 +4,7 @@
 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/15/Logo_D3.svg/1079px-Logo_D3.svg.png" alt="d3 visualization" height="200px">
 </p>
 
+* New York Maps - Side-by-side comparision of income and poverty in New York.
 * Bar Chart - Static Bar Chart of 2012 GDP of 10 nations.  
 * GDP Bar Chart - Animated Bar Chart of 2012 GDP of 10 nations. 
 * Line Chart - Animated Line Chart of Energy Per Capita (2000 - 2012) of BRICS + USA.
