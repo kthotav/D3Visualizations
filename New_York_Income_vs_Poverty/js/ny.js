@@ -19,8 +19,8 @@ var povertyData = d3.map();
 
 // asynchronous tasks, load topojson maps and data
 d3.queue()
-    .defer(d3.json, "../data/ny-quantize-topo.json")
-    .defer(d3.csv, "../data/income.csv", function(d) { 
+    .defer(d3.json, "data/ny-quantize-topo.json")
+    .defer(d3.csv, "data/income.csv", function(d) { 
         if (isNaN(d.income)) {
             incomeData.set(d.id, 0); 
         } else {
@@ -28,7 +28,7 @@ d3.queue()
         }
         
     })
-    .defer(d3.csv, "../data/poverty.csv", function(d) {
+    .defer(d3.csv, "data/poverty.csv", function(d) {
         if (d.poverty == '-') {
             povertyData.set(d.id, 0);
         } else {
