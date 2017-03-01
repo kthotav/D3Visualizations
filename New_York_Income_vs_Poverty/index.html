@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>D3js New York</title>
+
+    <!-- bulma css-->
+    <link rel="stylesheet"  type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.2/css/bulma.min.css">
+
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+    <!-- D3.js CDN source -->
+    <script src="https://d3js.org/d3.v4.min.js" charset="utf-8"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="https://d3js.org/topojson.v2.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+        <!-- Title -->
+        <h1 class="title has-text-centered">New York</h1>
+        <h2 class="subtitle has-text-centered">Income vs Poverty</h2>
+
+        <div class="columns">
+          <div class="column is-half">
+            <svg class="income" width="480" height="600"></svg>
+          </div>
+           <div class="column is-half">
+            <svg class="poverty" width="480" height="600"></svg>
+          </div>
+        </div>
+
+
+      
+        
+           
+
+        <!-- Your D3 code for bar graph -->
+        <script type="text/javascript" src="js/ny.js"></script>
+        
+
+        <!-- Info -->
+        <p class="subtitle is-5 has-text-centered">Created by: Venkata Karthik Thota</p>
+    </div>
+  </body>
+</html>
