@@ -71,8 +71,8 @@ function ready(error, data) {
         })
         .ease(d3.easeLinear)
         .attr("fill", function(d) { 
-            var id = incomeData.get(d.properties.GEOID);
-            return (id != 0 ? income_color(d.income = incomeData.get(d.properties.GEOID)) : "lightblue");  
+            var value = incomeData.get(d.properties.GEOID);
+            return (value != 0 ? income_color(value) : "lightblue");  
 
         })
         .attr("class", "counties-income");
@@ -97,9 +97,8 @@ function ready(error, data) {
         })
         .ease(d3.easeLinear)
         .attr("fill", function(d) { 
-            var id = povertyData.get(d.properties.GEOID);
-            
-            return (id != 0 ? poverty_color(d.poverty = povertyData.get(d.properties.GEOID)) : "lightblue");  
+            var value = povertyData.get(d.properties.GEOID);
+            return (value != 0 ? poverty_color(value) : "lightblue");  
 
         })
         .attr("class", "counties-poverty");
